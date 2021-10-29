@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Weather Jounral</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id = "app">
+            <h1>Weather Jounral App</h1>
+            <label>
+                <strong >Zip Code (Only For USA)</strong> </br>
+                <input type = "text" placeholder = "Enter Zip Code here" id="zip">
+            </label>
+            <label>
+                <Strong class = "strong">How are you doing?</Strong></br>
+                <textarea name = "feelings" id ="feelings" placeholder = "Enter your feelings here" rows = "10" cols = "50"></textarea>
+            </label>
+            <button type = "button" id="button">
+                submit
+            </button>
+            <div id = "entryHolder"> <strong>Most Recent Entry</strong>
+                <div id = "date" class = "margin-top"></div> 
+                <div id = "temp" class = "margin-top"></div>
+                <div id = "content" class = "margin-top"></div>
+            </div>
+        </div>
+        <script src = "app.js"></script>
+    </body>
+</html>
